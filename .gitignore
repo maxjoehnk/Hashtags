@@ -1,0 +1,15 @@
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
+
+# Build stuff
+/bin
+/target
+
+#Javadoc
+/doc
+
+#Libraries
+/lib/*
+!/lib/plugins

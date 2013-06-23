@@ -1,0 +1,8 @@
+name: Hashtags
+version: ${version}
+author: e-freak
+main: org.efreak.hashtags.Hashtags
+commands:
+  trending:
+    description: Shows trendings
+    usage: /trending [trend]
