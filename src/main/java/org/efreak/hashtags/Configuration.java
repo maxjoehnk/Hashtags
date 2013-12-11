@@ -77,6 +77,7 @@ public class Configuration{
 		update("General.Permissions.Use-Vault", true);
 		update("General.Permissions.Force-SuperPerms", false);
 		update("General.Permissions.Log", true);*/
+		update("General.ClickableHashtags", true);
 		update("General.Debug", false);
 		//update("General.Statistics", true);
 		update("IO.Show-Prefix", true);
