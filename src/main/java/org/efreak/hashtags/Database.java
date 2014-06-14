@@ -25,9 +25,10 @@ public abstract class Database {
 	protected abstract void config();
 	
 	private void setupTables() {
-		createTable("messages", "hashtag varchar(255) NOT NULL" + 
+		createTable("messages", "id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT" +
+				",hashtag varchar(255) NOT NULL" + 
 				", msg text NOT NULL" + 
-				", player varchar(255) NOT NULL");
+				", player_uuid varchar(255) NOT NULL");
 	}
 	
 	public void init() {
