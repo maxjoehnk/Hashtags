@@ -3,10 +3,8 @@ package org.efreak.hashtags;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 
-import org.bukkit.World;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.Plugin;
@@ -102,7 +100,7 @@ public class Configuration{
 	 /**
 	 * 
 	 * @return The currently used Database System
-	 * @see org.efreak.bukkitmanager.Database
+	 * @see org.efreak.hashtags.Database
 	 */
 	
 	public String getDatabaseType() {return dbType;}
